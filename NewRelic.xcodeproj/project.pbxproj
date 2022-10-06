@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9813DEF4040087F19B785845 /* Pods_NewRelicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2F865FCE40549624AA2FB /* Pods_NewRelicTests.framework */; };
 		C9BBC5E924E8EE6100F4C7D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BBC5E824E8EE6100F4C7D7 /* AppDelegate.swift */; };
 		C9BBC5EB24E8EE6100F4C7D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BBC5EA24E8EE6100F4C7D7 /* SceneDelegate.swift */; };
 		C9BBC5F024E8EE6100F4C7D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BBC5EE24E8EE6100F4C7D7 /* Main.storyboard */; };
@@ -21,7 +20,6 @@
 		C9BBC61F24E9072100F4C7D7 /* CatDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BBC61E24E9072100F4C7D7 /* CatDetailsViewController.swift */; };
 		C9BBC63524E924B300F4C7D7 /* MetricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BBC63424E924B300F4C7D7 /* MetricsViewController.swift */; };
 		C9BBC63924E9290C00F4C7D7 /* MetricsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BBC63824E9290C00F4C7D7 /* MetricsTableViewCell.swift */; };
-		D753B10EC562D88ED4FA2370 /* Pods_NewRelic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B30CA3C5D6F4E475D40B29 /* Pods_NewRelic.framework */; };
 		F6A1959625D2E13D0091662C /* CatDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A1959525D2E13D0091662C /* CatDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,12 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46B30CA3C5D6F4E475D40B29 /* Pods_NewRelic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewRelic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F5D44A62BC5D6157EE73D77 /* Pods-NewRelicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewRelicTests.debug.xcconfig"; path = "Target Support Files/Pods-NewRelicTests/Pods-NewRelicTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8CE2F865FCE40549624AA2FB /* Pods_NewRelicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewRelicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9085EFA14046E9DCE8119C7A /* Pods-NewRelic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewRelic.debug.xcconfig"; path = "Target Support Files/Pods-NewRelic/Pods-NewRelic.debug.xcconfig"; sourceTree = "<group>"; };
-		A7C0B327D3A515A36A054F8D /* Pods-NewRelic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewRelic.release.xcconfig"; path = "Target Support Files/Pods-NewRelic/Pods-NewRelic.release.xcconfig"; sourceTree = "<group>"; };
-		C85E5B316C43131F6E25A7DE /* Pods-NewRelicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewRelicTests.release.xcconfig"; path = "Target Support Files/Pods-NewRelicTests/Pods-NewRelicTests.release.xcconfig"; sourceTree = "<group>"; };
 		C9BBC5E524E8EE6100F4C7D7 /* NewRelic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewRelic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BBC5E824E8EE6100F4C7D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9BBC5EA24E8EE6100F4C7D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D753B10EC562D88ED4FA2370 /* Pods_NewRelic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,30 +66,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9813DEF4040087F19B785845 /* Pods_NewRelicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A6DE5EFA0B5CF8DD9160BED /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9085EFA14046E9DCE8119C7A /* Pods-NewRelic.debug.xcconfig */,
-				A7C0B327D3A515A36A054F8D /* Pods-NewRelic.release.xcconfig */,
-				6F5D44A62BC5D6157EE73D77 /* Pods-NewRelicTests.debug.xcconfig */,
-				C85E5B316C43131F6E25A7DE /* Pods-NewRelicTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		5B664425CF0C293B1D438DC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46B30CA3C5D6F4E475D40B29 /* Pods_NewRelic.framework */,
-				8CE2F865FCE40549624AA2FB /* Pods_NewRelicTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,7 +85,6 @@
 				C9BBC5E724E8EE6100F4C7D7 /* NewRelic */,
 				C9BBC5FE24E8EE6400F4C7D7 /* NewRelicTests */,
 				C9BBC5E624E8EE6100F4C7D7 /* Products */,
-				0A6DE5EFA0B5CF8DD9160BED /* Pods */,
 				5B664425CF0C293B1D438DC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -192,11 +167,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9BBC60424E8EE6400F4C7D7 /* Build configuration list for PBXNativeTarget "NewRelic" */;
 			buildPhases = (
-				2D52002C0129278332D38E95 /* [CP] Check Pods Manifest.lock */,
 				C9BBC5E124E8EE6100F4C7D7 /* Sources */,
 				C9BBC5E224E8EE6100F4C7D7 /* Frameworks */,
 				C9BBC5E324E8EE6100F4C7D7 /* Resources */,
-				585E9CB3C2ADC5B0DB01E14B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,28 +258,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D52002C0129278332D38E95 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NewRelic-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		478FB2A8DB47A5575C498DD6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,23 +278,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		585E9CB3C2ADC5B0DB01E14B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NewRelic/Pods-NewRelic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NewRelic/Pods-NewRelic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewRelic/Pods-NewRelic-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -520,7 +454,6 @@
 		};
 		C9BBC60524E8EE6400F4C7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9085EFA14046E9DCE8119C7A /* Pods-NewRelic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,7 +473,6 @@
 		};
 		C9BBC60624E8EE6400F4C7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7C0B327D3A515A36A054F8D /* Pods-NewRelic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -560,7 +492,6 @@
 		};
 		C9BBC60824E8EE6400F4C7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F5D44A62BC5D6157EE73D77 /* Pods-NewRelicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -582,7 +513,6 @@
 		};
 		C9BBC60924E8EE6400F4C7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C85E5B316C43131F6E25A7DE /* Pods-NewRelicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
