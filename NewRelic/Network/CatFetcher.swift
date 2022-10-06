@@ -50,7 +50,6 @@ class CatFetcher: NSObject {
             if let data = data, err == nil {
                 let decoder = JSONDecoder()
                 let executionTime = Date().timeIntervalSince(startDate)
-                print(executionTime * 1000)
                 let metrics = MetricsViewController()
                 metrics.recalculate(newVal: executionTime * 1000)
                 result = (try? decoder.decode(CatResult.self, from: data)) ?? nil

@@ -29,13 +29,6 @@ class CatDetailsViewController: UIViewController {
         tableView.estimatedRowHeight = 140
         tableView.separatorStyle = .none
         tableView.bounces = false
-
-        
-//        for elem in labelArr {
-//            print(detailIndex.)
-//        }
-        
-//        print(detailIndex.customMirror.children)
     }
 }
 
@@ -63,7 +56,6 @@ extension CatDetailsViewController: UITableViewDelegate, UITableViewDataSource {
             detailArr.append(CatAttribute(label: "coat", value: detailIndex.coat != "" ? detailIndex.coat : noValue))
             detailArr.append(CatAttribute(label: "pattern", value: detailIndex.pattern != "" ? detailIndex.pattern : noValue))
         }
-        print(detailIndex)
         cell?.configure(detailArr[indexPath.row])
         cell?.selectionStyle = .none
         return cell!

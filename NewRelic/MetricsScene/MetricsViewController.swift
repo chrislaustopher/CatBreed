@@ -37,10 +37,6 @@ class MetricsViewController: UIViewController {
     func recalculate(newVal: Double) {
         responseValue = responseValue + newVal
         responseValueCount = responseValueCount + 1
-        print("--")
-        print(responseValue)
-        print(newVal)
-        print(responseValueCount)
     }
 }
 
