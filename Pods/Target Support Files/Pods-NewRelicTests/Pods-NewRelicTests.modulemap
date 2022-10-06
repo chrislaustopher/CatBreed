@@ -1,0 +1,6 @@
+framework module Pods_NewRelicTests {
+  umbrella header "Pods-NewRelicTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
